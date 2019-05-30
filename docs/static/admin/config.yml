@@ -2,8 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: source/img
-public_folder: public/static
+media_folder: docs/source/images/
 publish_mode: editorial_workflow
 site_url: https://gatsby-docs-site.netlify.com
 display_url: https://gatsby-docs-site.netlify.com
@@ -11,9 +10,9 @@ display_url: https://gatsby-docs-site.netlify.com
 collections:
   - name: "doc"
     label: "Doc"
-    folder: "docs/source"
+    folder: "docs/source/"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "doc"}
       - {label: "Title", name: "title", widget: "string"}
