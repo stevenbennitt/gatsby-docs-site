@@ -5,11 +5,13 @@ backend:
 media_folder: source/img
 public_folder: public/static
 publish_mode: editorial_workflow
+site_url: https://gatsby-docs-site.netlify.com
+display_url: https://gatsby-docs-site.netlify.com
 
 collections:
   - name: "doc"
     label: "Doc"
-    folder: "source/intro"
+    folder: "docs/source/intro"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
