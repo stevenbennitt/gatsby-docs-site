@@ -8,8 +8,8 @@ site_url: https://gatsby-docs-site.netlify.com
 display_url: https://gatsby-docs-site.netlify.com
 
 collections:
-  - name: "doc"
-    label: "Doc"
+  - name: "welcome"
+    label: "Intro"
     folder: "docs/source/"
     create: true
     slug: "{{slug}}"
@@ -23,9 +23,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       
-collections:
-  - name: "doc"
-    label: "Doc"
+  - name: "intro"
+    label: "Intro"
     folder: "docs/source/intro"
     create: true
     slug: "{{slug}}"
@@ -39,9 +38,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       
-collections:
-  - name: "doc"
-    label: "Doc"
+  - name: "tutorial"
+    label: "Tutorial"
     folder: "docs/source/tutorial"
     create: true
     slug: "{{slug}}"
@@ -55,9 +53,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       
-collections:
-  - name: "doc"
-    label: "Doc"
+  - name: "platform"
+    label: "Platform Doc"
     folder: "docs/source/platform"
     create: true
     slug: "{{slug}}"
@@ -71,8 +68,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
-  - name: "pages"
-    label: "Pages"
+  - name: "page"
+    label: "Landing Page"
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
