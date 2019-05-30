@@ -11,7 +11,7 @@ module.exports = {
         githubRepo: 'apollographql/apollo',
         spectrumPath: 'apollo-platform',
         sidebarCategories: {
-          null: ['index', 'intro', 'intro/platform', 'intro/benefits'],
+          null: ['index', 'intro/about-our-api', 'intro/platform', 'intro/benefits'],
           Tutorial: [
             'tutorial/introduction',
             'tutorial/schema',
