@@ -1,6 +1,9 @@
 ---
 title: Why GraphQL?
+date: 2019-10-31T17:34:59.587Z
 description: Why adopting GraphQL and Apollo will help you ship features faster
+featuredpost: false
+featuredimage: /docs/source/images/docs.svg
 ---
 
 Managing data in modern applications can present a number of challenges. Developers have to aggregate data from multiple sources, distribute it upon multiple platforms, and plumb it into an app's UI. On top of that, front-end developers have to decide how to manage state on the client, all while executing complicated features such as caching and optimistic UI.
