@@ -1,7 +1,7 @@
 ---
 templateKey: doc
-title: About our APIs
-date: 2019-05-30T12:23:22.211Z
+title: 'About our A P I '
+date: 2019-10-31T12:23:22.211Z
 description: >-
   The BigCommerce set of APIs allow you to create apps, automate store
   processes, or build headless ecommerce solutions.
